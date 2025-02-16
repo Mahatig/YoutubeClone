@@ -1,0 +1,50 @@
+.b1{    
+    background-color: rgb(210, 3, 3);
+    color:white;
+    border:none;  
+    padding:8px;
+    border-radius: 2px;
+    cursor:pointer;
+    margin-right:8px;
+    transition:opacity 0.15s;
+    vertical-align:top;
+}
+.b1:hover{
+    opacity:0.8;
+}
+.b1:active{
+    opacity:0.5;
+}
+.b2{
+    background-color:white;
+    color:rgb(50, 50, 212);
+    border-color:rgb(50, 50, 212);
+    padding:8px;
+    border-radius:2px;
+    cursor: pointer;
+    border-style:solid;
+    margin-right:8px; 
+    transition:background-color 0.15s,color 0.15s;
+    vertical-align:top;
+    }
+.b2:hover{
+    background-color:rgb(50, 50, 212);
+    color:white;
+    }
+
+.b2:active{
+    opacity:0.7;
+    }
+.b3{
+    background-color: rgb(61, 61, 231);
+    color:white;
+    border-radius: 18px;
+    border:none;
+    padding:8px;
+    font-weight:bold;
+    font-size:15px;
+    cursor: pointer;
+    vertical-align:top;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.15);
+    transition:box-shadow 0.15s;
+}
